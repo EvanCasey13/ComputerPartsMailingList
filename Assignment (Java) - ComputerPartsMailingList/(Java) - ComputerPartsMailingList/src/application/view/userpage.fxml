@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@mailingSystemStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.UserController">
+   <children>
+      <DatePicker layoutX="404.0" layoutY="53.0" />
+      <Label alignment="CENTER" prefHeight="45.0" prefWidth="602.0" text="Mail User Page">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtMessageBody" layoutY="266.0" prefHeight="76.0" prefWidth="602.0" />
+      <Button layoutX="228.0" layoutY="355.0" mnemonicParsing="false" onAction="#listMessageDetails" prefHeight="25.0" prefWidth="108.0" text="List all messages" />
+      <Button layoutX="528.0" layoutY="355.0" mnemonicParsing="false" onAction="#addMessage" prefHeight="25.0" prefWidth="60.0" text="Send" />
+      <TableView fx:id="tblView" layoutX="1.0" layoutY="78.0" onMouseClicked="#userClickedOnTable" prefHeight="137.0" prefWidth="602.0">
+        <columns>
+          <TableColumn fx:id="username" prefWidth="75.0" text="Sender" />
+          <TableColumn fx:id="messageTitle" prefWidth="75.0" text="Title" />
+            <TableColumn fx:id="messageBody" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="messagePriority" prefWidth="75.0" text="Priority" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtMessageTitle" layoutX="2.0" layoutY="221.0" prefHeight="25.0" prefWidth="602.0" promptText="New Message Title" />
+      <Button fx:id="detailedMessageViewButton" layoutX="97.0" layoutY="356.0" mnemonicParsing="false" onAction="#changeSceneToDetailedView" text="Detailed View" />
+      <ComboBox fx:id="comboMailingLists" layoutX="367.0" layoutY="355.0" onAction="#changedMailListCombo" prefWidth="150.0" promptText="Mailing Lists" />
+      <ComboBox fx:id="priorityChoice" layoutX="244.0" layoutY="53.0" onAction="#changedPriorityList" prefWidth="150.0" />
+      <Button layoutX="126.0" layoutY="53.0" mnemonicParsing="false" onAction="#deleteMessage" prefHeight="25.0" prefWidth="108.0" text="Delete Message" />
+      <Label fx:id="txtFeedback" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="246.0" prefHeight="19.0" prefWidth="602.0" />
+      <Button layoutX="8.0" layoutY="53.0" mnemonicParsing="false" onAction="#registerForList" prefHeight="25.0" prefWidth="108.0" text="Register For list" />
+   </children>
+</AnchorPane>

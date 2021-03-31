@@ -1,0 +1,54 @@
+<object-stream>
+  <map>
+    <entry>
+      <string>kevindoherty@gmail.com</string>
+      <application.model.Member>
+        <email>kevindoherty@gmail.com</email>
+        <username>Doherty</username>
+        <usertype>Admin</usertype>
+        <groupList>
+          <string>CPU</string>
+        </groupList>
+        <password>test</password>
+        <signupDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2020</int>
+          <byte>12</byte>
+          <byte>16</byte>
+        </signupDate>
+        <signupTime resolves-to="java.time.Ser">
+          <byte>4</byte>
+          <byte>19</byte>
+          <byte>34</byte>
+          <byte>20</byte>
+          <int>458661900</int>
+        </signupTime>
+      </application.model.Member>
+    </entry>
+    <entry>
+      <string>evancasey@gmail.com</string>
+      <application.model.Member>
+        <email>evancasey@gmail.com</email>
+        <username>Abstract</username>
+        <usertype>Normal</usertype>
+        <groupList>
+          <string>SSD</string>
+        </groupList>
+        <password>test</password>
+        <signupDate resolves-to="java.time.Ser">
+          <byte>3</byte>
+          <int>2020</int>
+          <byte>12</byte>
+          <byte>20</byte>
+        </signupDate>
+        <signupTime resolves-to="java.time.Ser">
+          <byte>4</byte>
+          <byte>14</byte>
+          <byte>30</byte>
+          <byte>5</byte>
+          <int>777350600</int>
+        </signupTime>
+      </application.model.Member>
+    </entry>
+  </map>
+</object-stream>

@@ -1,0 +1,79 @@
+<object-stream>
+  <map>
+    <entry>
+      <string>CPU TEST MESSAGE</string>
+      <set>
+        <application.model.Message>
+          <senderUsername>Abstract</senderUsername>
+          <messageTitle>CPU TEST MESSAGE</messageTitle>
+          <date resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2020</int>
+            <byte>12</byte>
+            <byte>20</byte>
+          </date>
+          <time resolves-to="java.time.Ser">
+            <byte>4</byte>
+            <byte>19</byte>
+            <byte>14</byte>
+            <byte>6</byte>
+            <int>520998300</int>
+          </time>
+          <priority>Normal</priority>
+          <mailingLists>CPU</mailingLists>
+          <messageBody>TEST MESSAGE LOREM IPSUM</messageBody>
+        </application.model.Message>
+      </set>
+    </entry>
+    <entry>
+      <string>TEST MOTHERBOARD MESSAGE</string>
+      <set>
+        <application.model.Message>
+          <senderUsername>Abstract</senderUsername>
+          <messageTitle>TEST MOTHERBOARD MESSAGE</messageTitle>
+          <date resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2021</int>
+            <byte>1</byte>
+            <byte>5</byte>
+          </date>
+          <time resolves-to="java.time.Ser">
+            <byte>4</byte>
+            <byte>11</byte>
+            <byte>11</byte>
+            <byte>25</byte>
+            <int>157065700</int>
+          </time>
+          <priority>Normal</priority>
+          <mailingLists>Motherboard</mailingLists>
+          <messageBody>TEST MOTHERBOARD MESSAGE</messageBody>
+        </application.model.Message>
+      </set>
+    </entry>
+    <entry>
+      <string>TEST GPU ONE</string>
+      <set>
+        <application.model.Message>
+          <senderUsername>Abstract</senderUsername>
+          <messageTitle>TEST GPU ONE</messageTitle>
+          <date resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2020</int>
+            <byte>12</byte>
+            <byte>20</byte>
+          </date>
+          <time resolves-to="java.time.Ser">
+            <byte>4</byte>
+            <byte>13</byte>
+            <byte>47</byte>
+            <byte>47</byte>
+            <int>823814500</int>
+          </time>
+          <priority>Normal</priority>
+          <mailingLists>GPU</mailingLists>
+          <messageBody>LOREM IPSUM</messageBody>
+        </application.model.Message>
+      </set>
+    </entry>
+  </map>
+</object-stream>

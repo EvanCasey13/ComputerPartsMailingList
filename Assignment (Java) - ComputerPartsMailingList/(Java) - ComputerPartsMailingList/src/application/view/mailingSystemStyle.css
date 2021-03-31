@@ -1,0 +1,37 @@
+
+* {
+    dark-primary-color:#1AC8DB;
+    default-primary-color: #0292B7;
+    text-primary-color: #3CACAE;
+    light-primary-color: #F5F5F5;
+    accent-color: #DEE2EC;
+    primary-text-color: #3CACAE;
+    secondary-text-color: #f2f2f2;
+    divider-color: #BDBDBD;
+}
+
+.root {
+    -fx-background-color: default-primary-color;
+}
+
+.button {
+    -fx-font: 12px "Comic Sans MS";
+    -fx-text-fill: primary-text-color;
+    -fx-padding: 3;
+    -fx-background-color: accent-color;
+    -fx-effect: dropshadow(one-pass-box, black, 14, 0.0 , 6, 0);
+    -fx-background-radius: 8;
+}
+
+.label {
+    -fx-font: 10px "Comic Sans MS";
+    -fx-text-fill: dark-primary-color;
+    -fx-text-alignment: left;
+}
+
+.choice-box {
+    -fx-font: 16px "Comic Sans MS";
+    -fx-text-fill: none;
+    -fx-text-alignment: left;
+   
+}
